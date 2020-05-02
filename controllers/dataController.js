@@ -1,7 +1,7 @@
 // const dataModel = require("../models/dataModel");
 const fs = require("fs");
 
-async function createData(data, nameData) {
+async function createData(nameData, username, password) {
     let swapData;
     try {
         let rawData = fs.readFileSync(nameData, "utf8");
@@ -12,7 +12,9 @@ async function createData(data, nameData) {
         swapData = [];
     } finally {
         let newData = {
-            content: data
+            userName: username,
+            pwd: password
+           
         }
         // lamf sao chuyen doan nay tu model a oi
         swapData.push(newData);
@@ -30,8 +32,9 @@ async function createData(data, nameData) {
 async function readAllData(nameData){
     let rawData = fs.readFileSync(nameData, "utf8");
         rawData = JSON.parse(rawData);
-    return rawData;
-}
+        console.log("currentData =", swapData);
+    }
+        
 
 async function deleteData(nameData){
     
