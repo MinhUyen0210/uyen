@@ -1293,3 +1293,6 @@ a:hover {
     background-color: rgb(22, 147, 189);
   }
 }
+#login-button{
+  width: 2cm;
+}

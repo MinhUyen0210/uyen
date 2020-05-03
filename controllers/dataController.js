@@ -29,7 +29,10 @@ async function createData(nameData, username, password) {
     }
 }
 
+
+
 async function readAllData(nameData){
+    let swapData;
     let rawData = fs.readFileSync(nameData, "utf8");
         rawData = JSON.parse(rawData);
         console.log("currentData =", swapData);
