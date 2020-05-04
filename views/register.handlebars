@@ -67,21 +67,24 @@
                         <h1 style="font-size: 0.7cm;" class="sub-title">Register</h1>
                         <a href="shop" class="letshop"></a>
 
-                        <div class="register">
-                            <label for="uname"><b>Username</b>
-                                <input id="username" type="text" placeholder="Enter Username" name="uname"
-                                    required></label><br>
-                            <label for="psw"><b>Password</b>
-                                <input id="password" type="password" placeholder="Enter Password" name="psw"
-                                    required></label><br>
-                            <label for="psw"><b>Confirm password</b>
-                                <input id="cf-password" type="password" placeholder="Confirm Password" name="cf-psw"
-                                    required></label><br>
+                        <form action="/register" , method="POST">
+                            <div class="register">
+                                <label for="runame"><b>Username</b>
+                                    <input id="rusername" type="text" placeholder="Enter Username" name="runame"
+                                        required></label><br>
+                                <label for="rpsw"><b>Password</b>
+                                    <input id="rpassword" type="password" placeholder="Enter Password" name="rpsw"
+                                        required></label><br>
+                                <label for="cfpsw"><b>Confirm password</b>
+                                    <input id="cf-password" type="password" placeholder="Confirm Password" name="cf-psw"
+                                        required></label><br>
+                                <button id="register-button"
+                                    style="justify-content: center; background-color: lightblue;" type="submit"
+                                    class="target btn-default btn" onclick="location.href='shop'">Register</button>
+                            </div>
                             
-                            <a><input id="register-button"
-                                style="justify-content: center; background-color: lightblue;" type="submit button"
-                                class="target btn-default btn" value="Register"></a>
-                        </div>
+                        </form>
+
 
 
                     </div>
@@ -109,7 +112,7 @@
 <script>
     $(document).ready(function () {
         $("#register-button").click(function () {
-            $("h1").html("Welcome to shopmax, " + document.getElementById("username").value+"!");
+            $("h1").html("Welcome to shopmax, " + document.getElementById("username").value + "!");
             $(".letshop").html("Let's go shopping now!");
             $(".register").hide();
 

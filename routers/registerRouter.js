@@ -4,15 +4,15 @@ const { createData, readData } = require("../controllers/dataController");
 
 Router.get("/register", async (req, res) => {
   let read = await readData("dataUser.json");
-  console.log(read);
   res.render("register", { css1: "css/aos.css", css2: "css/register.css" });
 });
 
 Router.post("/register", async (req, res) => {
-  let newUserName = req.body.uname;
-  let newPassword = req.body.pwd;
+  let rUserName = req.body.runame;
+  let rPassword = req.body.rpsw;
 
-  await createData("dataUser.json", newUserName, newPassword);
+  await createData("dataUser.json", rUserName, rPassword);
   res.render("register", { css1: "css/aos.css", css2: "css/register.css" });
 });
 module.exports = Router;
+
