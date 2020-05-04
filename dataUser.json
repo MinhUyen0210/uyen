@@ -1,8 +1,1 @@
-[
-  {},
-  { "userName": "minh uyen", "pwd": "123" },
-  { "userName": "minh uyen", "pwd": "1234567890" },
-  { "userName": "minh uyen", "pwd": "1" },
-  { "userName": "minh uyen", "pwd": "1" },
-  { "userName": "minh uyen", "pwd": "12" }
-]
+[{},{"userName":"minh uyen","pwd":"123"},{"userName":"minh uyen","pwd":"1234567890"},{"userName":"minh uyen","pwd":"1"},{"userName":"minh uyen","pwd":"1"},{"userName":"minh uyen","pwd":"12"},{"userName":"minh uyen","pwd":"1234"},{"userName":"minh uyen","pwd":"1234"},{"userName":"minh uyen","pwd":"111111"},{"userName":"uyen123","pwd":"1234"},{"userName":"qwert","pwd":"12345"},{"userName":"minh uyen","pwd":"121212"},{"userName":"w","pwd":"1"},{"userName":"qwerty","pwd":"123456"},{"userName":"qwerty","pwd":"123456"},{"userName":"uyen123","pwd":"1234567"},{"userName":"minh uyen","pwd":"1"},{"userName":"uyen","pwd":"12345"},{"userName":"minh uyen","pwd":"121212"},{"userName":"minh uyen","pwd":"11111"},{"userName":"uyen","pwd":"121212"},{"userName":"e","pwd":"1"},{"userName":"qqqqq","pwd":""},{"userName":"qqqqqqq","pwd":""},{"userName":"uyen","pwd":"1111"},{"userName":"uyen","pwd":""},{"userName":"uyen","pwd":""},{"userName":"uyen","pwd":"11111111"},{"userName":"uyen","pwd":""},{"userName":"uyen","pwd":"11111111"},{"userName":"uyen","pwd":""}]

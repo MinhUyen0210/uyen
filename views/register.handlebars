@@ -80,13 +80,10 @@
                                         required></label><br>
                                 <button id="register-button"
                                     style="justify-content: center; background-color: lightblue;" type="submit"
-                                    class="target btn-default btn" onclick="location.href='shop'">Register</button>
+                                    class="target btn-default btn" >Register</button>
                             </div>
                             
                         </form>
-
-
-
                     </div>
                 </div>
                 <div class="col-md-6 order-1 align-self-end">
@@ -112,10 +109,9 @@
 <script>
     $(document).ready(function () {
         $("#register-button").click(function () {
-            $("h1").html("Welcome to shopmax, " + document.getElementById("username").value + "!");
-            $(".letshop").html("Let's go shopping now!");
             $(".register").hide();
-
+            $("h1").html("Welcome to shopmax, " + document.getElementById("rusername").value + "!");
+            $(".letshop").html("Let's go shopping now!");  
         });
     });
 </script>
